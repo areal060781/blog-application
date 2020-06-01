@@ -15,3 +15,5 @@ posts/__pycache__/
 *$py.class
 
 .idea
+
+config.json
