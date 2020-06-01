@@ -1,1 +1,17 @@
+### Flask ###
+instance/*
+!instance/.gitignore
+.webassets-cache
+
+### Flask.Python Stack ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+flaskblog/__pycache__/
+main/__pycache__/
+users/__pycache__/
+posts/__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
 .idea
