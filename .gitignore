@@ -15,5 +15,6 @@ posts/__pycache__/
 *$py.class
 
 .idea
-
+*.sqlite
+*.db
 config.json
