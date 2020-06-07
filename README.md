@@ -1,5 +1,5 @@
-# Blog application
-Flask blog application
+# Simple Blog application
+Simple blog application with Flask
 
 ## Modules
 * Post

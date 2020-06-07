@@ -18,3 +18,4 @@ posts/__pycache__/
 *.sqlite
 *.db
 config.json
+venv
