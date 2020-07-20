@@ -1,23 +1,12 @@
 # Simple Blog application
-Simple blog application with Flask
+Simple blog application made with Flask
 
-## Modules
-* Post
-    * create
-    * read
-    * update
-    * delete
-* User
-    * register
-    * login
-    * logout
-    * reset password
-
-Include
+### Includes
+* Post CRUD
+* User registration, login, logout and reset password using tokens
 * Error pages
 * Email service
 * Upload files and resize pictures
-* Reset password tokens 
 
 ### Requirements
 * Python 3.7
@@ -27,8 +16,16 @@ Include
 ```sh
 git clone https://github.com/areal060781/blog.git
 cd blog
-virtualenv env
-pip install requirements.txt
+python3 -m venv venv
+pip install -r requirements.txt
+```
 
+Edit the variables
+```sh
 cp flaskblog/config-example.json config.json
+```
+
+Run the application
+```sh
+(venv) $ flask run
 ```
