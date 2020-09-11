@@ -1,7 +1,6 @@
 # Simple Blog application
-Simple blog application made with Flask
+A blog application made with **Flask**
 
-### Includes
 * Post CRUD
 * User registration, login, logout and reset password using tokens
 * Error pages
@@ -13,14 +12,13 @@ Simple blog application made with Flask
 * Virtualenv
 
 ### Installation
+Inside the project folder create the environment and install the dependencies
 ```sh
-git clone https://github.com/areal060781/blog.git
-cd blog
 python3 -m venv venv
 pip install -r requirements.txt
 ```
 
-Edit the variables
+Copy the config file and edit the variables
 ```sh
 cp flaskblog/config-example.json config.json
 ```
