@@ -12,9 +12,10 @@ A blog application made with **Flask**
 * Virtualenv
 
 ### Installation
-Inside the project folder create the environment and install the dependencies
+Inside the project folder create the environment, activate it and install the dependencies
 ```sh
 python3 -m venv venv
+. twittervotes/bin/activate
 pip install -r requirements.txt
 ```
 
